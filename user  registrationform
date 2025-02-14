@@ -1,0 +1,49 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;User Registration Form&lt;/title&gt;
+&lt;style&gt;
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+}
+form {
+border: 1px solid #ccc;
+padding: 20px;
+width: 300px;
+}
+input[type=&quot;text&quot;],
+input[type=&quot;email&quot;],
+input[type=&quot;tel&quot;],
+input[type=&quot;submit&quot;] {
+width: 100%;
+padding: 10px;
+margin: 5px 0;
+box-sizing: border-box;
+
+}
+input[type=&quot;submit&quot;] {
+background-color: #4CAF50;
+color: white;
+border: none;
+}
+input[type=&quot;submit&quot;]:hover {
+background-color: #45a049;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;User Registration Form&lt;/h2&gt;
+&lt;form&gt;
+&lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; required&gt;&lt;br&gt;
+&lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;&lt;br&gt;
+&lt;label for=&quot;phone&quot;&gt;Phone:&lt;/label&gt;
+&lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; required&gt;&lt;br&gt;
+&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
